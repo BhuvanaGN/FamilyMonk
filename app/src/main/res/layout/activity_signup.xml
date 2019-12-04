@@ -4,22 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/accbackground"
-    tools:context=".MainActivity">
+    android:background="@drawable/accbackground">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="500dp"
-        android:layout_marginEnd="160dp"
         android:background="@color/colorPrimaryDark"
-        android:text="@string/btnLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/clrLoginSignuptxt"/>
-
-
+        android:text="@string/btnSignup"
+        android:textColor="@color/clrLoginSignuptxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/acc_email"
@@ -50,25 +47,14 @@
         app:layout_constraintTop_toBottomOf="@id/acc_email" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/singUpLink"
+        android:id="@+id/loginLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="108dp"
-        android:layout_marginStart="70dp"
-        android:text="@string/txtvwSignUplnk"
+        android:text="@string/txtvwLoginlnk"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/btnLogin" />
-
-<!--    <androidx.appcompat.widget.AppCompatTextView-->
-<!--        android:id="@+id/forgetPasswordLink"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="60dp"-->
-<!--        android:layout_marginTop="58dp"-->
-<!--        android:text="@string/forgetPassword"-->
-<!--        android:textSize="18sp"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="@id/singUpLink" />-->
+        app:layout_constraintTop_toTopOf="@id/btnSignUp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

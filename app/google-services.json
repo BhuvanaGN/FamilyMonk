@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957178805677",
+    "firebase_url": "https://family-monk.firebaseio.com",
+    "project_id": "family-monk",
+    "storage_bucket": "family-monk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957178805677:android:9acc2b13286f5e39f77524",
+        "android_client_info": {
+          "package_name": "in.bhuvana.familymonk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957178805677-g7hbd7o0briob30mpbcq3m4030ovast9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC82rbSv3SyC3nFT9XY_UQOaDNLSAgBddg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957178805677-g7hbd7o0briob30mpbcq3m4030ovast9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

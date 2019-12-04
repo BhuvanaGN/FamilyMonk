@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">FamilyMonk</string>
-    <string name="btnLogin" >Login</string>
+    <string name="btnLogin">Login</string>
     <string name="btnSignup">Sign Up</string>
+    <string name="user_name">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="txtvwSignUplnk">Don\'t have Account? Create One here</string>
+    <string name="txtvwLoginlnk">Already have account login here</string>
+    <string name="forgetPassword">Forgotten Password ?? Click here to Reset</string>
 </resources>

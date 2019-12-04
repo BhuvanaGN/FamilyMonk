@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
              else if(emailId.isEmpty() && password.isEmpty()){
                   Toast.makeText(MainActivity.this,"Email and Password are Empty",Toast.LENGTH_SHORT).show();
               }
-              else if(! (emailId.isEmpty() && password.isEmpty())){
+              else if(! ( emailId.isEmpty() && password.isEmpty())){
                 login_Authendication.signInWithEmailAndPassword(emailId,password).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
